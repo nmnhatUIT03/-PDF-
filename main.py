@@ -4,11 +4,11 @@ import numpy as np
 import pickle as pkl
 
 
-class_list = {'0': 'Normal', '1': 'Pneumonia'}
+class_list = {'0': 'Benign', '1': 'Malicious'}
 
-st.title('Pneumonia Detection')
+st.title('PDF Malwware Detection')
 
-input = open('lrc_xray.pkl', 'rb')
+input = open('xgb_model.pkl', 'rb')
 model = pkl.load(input)
 
 st.header('Upload an image')
