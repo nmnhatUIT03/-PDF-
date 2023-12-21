@@ -1,5 +1,5 @@
 import streamlit as st
-import PyPDF2
+import pyPDF2
 import numpy as np
 import pickle as pkl
 
