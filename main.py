@@ -2,6 +2,7 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 import pickle as pkl
+import sklearn
 
 
 class_list = {'0': 'Benign', '1': 'Malicious'}
